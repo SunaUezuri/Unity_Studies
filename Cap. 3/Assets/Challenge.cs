@@ -4,15 +4,18 @@ using UnityEngine;
 
 public class Challenge : MonoBehaviour
 {
-    // Start is called before the first frame update
+    
+    public int valor;
+
     void Start()
     {
         
+        //Criando a função para dizer se o valor é negativo ou positivo
+        if (valor >= 0){
+            print("O valor de " + valor + " é positivo");
+        } else {
+            print("Este valor é negativo");
+        }
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
